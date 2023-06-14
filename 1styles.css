@@ -1,3 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+
+}
+nav{
+    background-color:  rgb(235, 171, 33);
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #111010;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+
+    margin: 0 50px;
+}
+nav ul li a{
+    
+    color: white;
+    font-size: 17px;
+    font-weight: 00;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+
+    background-color: #fffef5;
+    color: rgb(0, 6, 87);
+    transition: 0.5s;
+}
+.header{
+  display: flex;
+  justify-content: end;
+
+
+}
 body{
     background-color: #111010;
 
@@ -36,6 +82,7 @@ p{
     text-align: center;
     padding: 3%;
     margin: 2%;
+    font-family: 'Vast Shadow', cursive;
     
 }
 .flex-container{
@@ -48,6 +95,8 @@ p{
     outline: none;
     height: auto;
     width: auto;
+    font-family: 'Vast Shadow', cursive;
+    
 
 }
 
@@ -68,5 +117,30 @@ div {
     outline: none;
     color: white;
     background-color: rgb(40, 50, 68);
+    
+}
+.fon{
+    font-family: 'Kablammo', cursive;
+}
+
+
+/* for phones */
+@media (max-width: 600px) {
+    h2{
+        color: red;
+    }
+   
+}
+/* for tablets */
+@media (768px) {
+    
+}
+/* for laptops */
+@media (992pxpx) {
+    
+}
+
+/* for lagrge devices */
+@media (1200px) {
     
 }
